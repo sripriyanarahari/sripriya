@@ -104,8 +104,13 @@ button:hover{
 			<div class="signup">
 				<form>
 					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="txt" placeholder="User name" required="">
-					<input type="email" name="email" placeholder="Email" required="">
+					<input type="text" name="txt" placeholder="first name" required="">
+					<input type="text" name="text" placeholder="last name" required="">
+					<input type="text" name="text" placeholder="email" required="">i
+					<input type="radio" name="gender" value="male">male<br>
+					<input type="radio" name="gender" value="female">female<br>
+					<input type="radio" name="gender" value="other">other
+					<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 					<input type="password" name="pswd" placeholder="Password" required="">
 					<button>Sign up</button>
 				</form>
@@ -114,7 +119,7 @@ button:hover{
 			<div class="login">
 				<form>
 					<label for="chk" aria-hidden="true">Login</label>
-					<input type="email" name="email" placeholder="Email" required="">
+					<input type="login id" name="login id" placeholder="login id" required="">
 					<input type="password" name="pswd" placeholder="Password" required="">
 					<button>Login</button>
 				</form>
